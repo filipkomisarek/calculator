@@ -29,8 +29,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:shrinkColumns="0,1,2,3"
-            android:stretchColumns="0,1,2,3">
+            android:shrinkColumns="0,1,2,3,4"
+            android:stretchColumns="0,1,2,3,4">
 
             <TableRow
                 android:layout_width="match_parent"
@@ -54,6 +54,11 @@
                 <Button
                     android:id="@+id/button21"
                     android:text="CE"
+                    style="@style/KeyClicked" />
+
+                <Button
+                    android:id="@+id/button35"
+                    android:text="*"
                     style="@style/KeyClicked" />
             </TableRow>
 
@@ -80,6 +85,11 @@
                     android:id="@+id/button25"
                     android:text="C"
                     style="@style/KeyClicked" />
+
+                <Button
+                    android:id="@+id/button34"
+                    android:text="/"
+                    style="@style/KeyClicked" />
             </TableRow>
 
             <TableRow
@@ -105,6 +115,12 @@
                     android:id="@+id/button29"
                     android:text="+"
                     style="@style/KeyClicked" />
+
+                <Button
+                    android:id="@+id/button36"
+                    android:text="SQRT(x)"
+                    style="@style/KeyClicked" />
+
             </TableRow>
 
             <TableRow
@@ -130,6 +146,13 @@
                     android:id="@+id/button33"
                     android:text="-"
                     style="@style/KeyClicked" />
+                <Button
+                    android:id="@+id/button37"
+                    android:text="x^2"
+                    style="@style/KeyClicked" />
+
+
+
             </TableRow>
         </TableLayout>
 
