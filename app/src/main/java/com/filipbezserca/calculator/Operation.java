@@ -2,7 +2,7 @@ package com.filipbezserca.calculator;
 
 enum Operation {
 
-    NONE(""), ADD("+"), SUBSTRACT("-");
+    NONE(""), ADD("+"), SUBSTRACT("-"), MULTIPLY ("*"), DIVIDE ("/");
 
     private final String key;
 
