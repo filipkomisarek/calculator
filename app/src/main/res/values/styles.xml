@@ -14,4 +14,17 @@
         <item name="android:onClick">keyClicked</item>
     </style>
 
+    <style name="DisplayStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_above">@id/tableLayout</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:background">@color/display_background</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:gravity">center_vertical|end</item>
+    </style>
+
 </resources>
