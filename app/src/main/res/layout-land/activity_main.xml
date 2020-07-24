@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_alignParentBottom="false"
     tools:context=".MainActivity">
 
     <RelativeLayout
@@ -16,11 +15,13 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_alignTop="@id/tableLayout"
-            android:layout_alignParentLeft="false"
+            android:layout_above="@id/tableLayout"
             android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentRight="true"
+            android:background="@color/display_background"
+            android:textColor="@android:color/white"
+            android:textSize="50sp"
+            android:singleLine="true"
+            android:paddingRight="10dp"
             android:gravity="center_vertical|end"
             android:text="0" />
 
