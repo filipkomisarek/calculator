@@ -44,7 +44,7 @@
 
                 <Button
                     android:id="@+id/button21"
-                    style="@style/KeyClicked"
+                    style="@style/KeyClicked.Operation"
                     android:text="CE" />
             </TableRow>
 
@@ -69,7 +69,7 @@
 
                 <Button
                     android:id="@+id/button25"
-                    style="@style/KeyClicked"
+                    style="@style/KeyClicked.Operation"
                     android:text="C" />
             </TableRow>
 
@@ -94,7 +94,7 @@
 
                 <Button
                     android:id="@+id/button29"
-                    style="@style/KeyClicked"
+                    style="@style/KeyClicked.Operation"
                     android:text="+" />
             </TableRow>
 
@@ -119,7 +119,7 @@
 
                 <Button
                     android:id="@+id/button33"
-                    style="@style/KeyClicked"
+                    style="@style/KeyClicked.Operation"
                     android:text="-" />
             </TableRow>
         </TableLayout>

@@ -12,7 +12,16 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:background">@drawable/button_selector</item>
+        <item name="android:textColor">@android:color/white</item>
         <item name="android:onClick">keyClicked</item>
+    </style>
+
+    <style name="KeyClicked.Operation">
+        <item name="android:background">@drawable/button_selector_operation</item>
+    </style>
+
+    <style name="KeyClicked.Special">
+        <item name="android:background">@drawable/button_selector_special</item>
     </style>
 
     <style name="DisplayStyle">
