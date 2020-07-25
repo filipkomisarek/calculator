@@ -15,7 +15,6 @@
         <TextView
             android:id="@+id/textView3"
             style="@style/DisplayStyle" />
-
         <TableLayout
             android:id="@+id/tableLayout"
             android:layout_width="match_parent"
